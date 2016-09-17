@@ -1,0 +1,29 @@
+{
+    "name": "autographics/highcharts",
+    "type": "library",
+    "description": "A php hierarchy classes for highcharts charts",
+    "keywords": ["highcharts", "highstock", "php", "charts", "javascript"],
+    "homepage": "",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Grande Giacomo",
+            "email": "ggrande4@gmail.com",
+            "homepage": "",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "ggrande4@gmail.com",
+        "issues": "",
+        "source": ""
+    },
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Autographics\\Highcharts\\": "src/"
+        }
+    }
+}
